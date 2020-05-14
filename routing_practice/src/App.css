@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color:beige;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-logo2 {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo2 {
+    animation: App-logo-spin2 infinite 20s linear;
+  }
+}
+.App-logo3 {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo3 {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-logo4 {
+  color: grey;
+  pointer-events: none;
+  text-emphasis: emphasis;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo4 {
+    animation: App-logo-spin infinite 40s linear;
+  }
+}
+.App-logo5 {
+  height: 10vmin;
+  pointer-events: visibleFill;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo5 {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: beige;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:orange;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+@keyframes App-logo-spin3 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+@keyframes App-logo-spin4 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+.App-logo5{
+  border: 0;
+  border-radius: 0.25rem;
+  background: #1E88E5;
+  color: white;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  }
+  @keyframes App-logo-spin5 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
